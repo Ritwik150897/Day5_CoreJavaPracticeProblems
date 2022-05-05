@@ -13,7 +13,7 @@ public class FlipCoin {
         if(flips > 0){
             for(int i = 1; i <= flips; i++){
                 double f = Math.floor(Math.random() * 10) % 2;
-                
+
                 if(f == 1.0){
                     System.out.println("Heads");
                     heads++;
